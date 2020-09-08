@@ -33,9 +33,9 @@ const routes: Array<RouteConfig> = [
 ];
 
 const router = new VueRouter({
-  // mode: "history",
+  mode: "history",
   // base: "/wp-content/themes/mycreate/pages/wicd/",
-  // // base: process.env.BASE_URL,
+  base: process.env.BASE_URL,
   routes,
 });
 
